@@ -18,12 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:0 target:nil action:nil];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// 百度一下
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    id webControl = segue.destinationViewController;
+    [webControl setValue:[NSURL URLWithString:@"https://www.baidu.com/"] forKey:@"url"];
 }
 
 

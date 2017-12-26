@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70B52F45A9A9F4F64949602B /* libPods-SKWebViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D119F3CB474F90DFD6A839EC /* libPods-SKWebViewControllerDemo.a */; };
+		BC3C62DD1FF25C2700CE0A1B /* SKGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3C62DC1FF25C2700CE0A1B /* SKGradientProgressView.m */; };
 		BCE5F5B11FF0F52C00C401BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5F5B01FF0F52C00C401BA /* AppDelegate.m */; };
 		BCE5F5B41FF0F52C00C401BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE5F5B31FF0F52C00C401BA /* ViewController.m */; };
 		BCE5F5B71FF0F52C00C401BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE5F5B51FF0F52C00C401BA /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		3AB73A3C515B4635A23EF004 /* Pods-SKWebViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKWebViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKWebViewControllerDemo/Pods-SKWebViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5FE5A7D98DCD605AB0C1EA1A /* Pods-SKWebViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKWebViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKWebViewControllerDemo/Pods-SKWebViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC3C62DB1FF25C2700CE0A1B /* SKGradientProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKGradientProgressView.h; sourceTree = "<group>"; };
+		BC3C62DC1FF25C2700CE0A1B /* SKGradientProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKGradientProgressView.m; sourceTree = "<group>"; };
 		BCE5F5AC1FF0F52C00C401BA /* SKWebViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKWebViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE5F5AF1FF0F52C00C401BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCE5F5B01FF0F52C00C401BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 			children = (
 				BCE5F5C71FF0FA2000C401BA /* SKWebViewController.h */,
 				BCE5F5C81FF0FA2000C401BA /* SKWebViewController.m */,
+				BC3C62DB1FF25C2700CE0A1B /* SKGradientProgressView.h */,
+				BC3C62DC1FF25C2700CE0A1B /* SKGradientProgressView.m */,
 			);
 			name = SKWebViewController;
 			path = ../../SKWebViewController;
@@ -244,6 +249,7 @@
 			files = (
 				BCE5F5B41FF0F52C00C401BA /* ViewController.m in Sources */,
 				BCE5F5BF1FF0F52C00C401BA /* main.m in Sources */,
+				BC3C62DD1FF25C2700CE0A1B /* SKGradientProgressView.m in Sources */,
 				BCE5F5B11FF0F52C00C401BA /* AppDelegate.m in Sources */,
 				BCE5F5C91FF0FA2000C401BA /* SKWebViewController.m in Sources */,
 			);
@@ -383,7 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZQR35B6NE;
 				INFOPLIST_FILE = "$(SRCROOT)/SKWebViewControllerDemo/Other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lemon.SKWebViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -399,7 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZQR35B6NE;
 				INFOPLIST_FILE = "$(SRCROOT)/SKWebViewControllerDemo/Other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lemon.SKWebViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
